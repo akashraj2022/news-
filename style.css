@@ -1,0 +1,14 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.menu{padding: 15px 25px; background: orange;}
+.menu a{text-decoration: none; padding: 15px 50px;}
+.menu a:hover{
+    background-color: aquamarine;
+}
+.newsdata{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:20px;
+}
+.news{ border: solid;}
+.news img{height: auto; max-width: 100%;}
+.content{text-align: justify; padding: 10px; line-height: 28px;}
